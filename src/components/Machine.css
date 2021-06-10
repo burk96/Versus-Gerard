@@ -1,0 +1,11 @@
+#Machine {
+  height: 85%;
+  width: 85%;
+  background-color: gray;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  overflow: auto;
+}

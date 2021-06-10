@@ -1,0 +1,26 @@
+#Actor {
+  height: 95%;
+  width: 40%;
+  background-color: lightcoral;
+  display: grid;
+  grid-template-rows: repeat(4, 10rem);
+  grid-template-columns: 1;
+}
+
+#Actor img {
+  grid-row: 1 / 4;
+  grid-column: 1;
+  object-fit: contain;
+  width: 100%;
+  max-height: 100%;
+  padding: 2rem;
+}
+
+#Actor h1 {
+  grid-row: 4/5;
+  text-align: center;
+}
+
+#Actor button {
+  grid-row: 5/6;
+}
