@@ -1,11 +1,18 @@
 #Machine {
-  height: 85%;
+  height: 80%;
   width: 85%;
-  background-color: gray;
-  color: white;
+  background-color: white;
+  color: black;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   overflow: auto;
+}
+
+@media (orientation: portrait) {
+  #Machine {
+    flex-direction: column;
+    justify-content: center;
+  }
 }

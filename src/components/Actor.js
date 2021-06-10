@@ -1,12 +1,12 @@
 import React from "react";
 import "./Actor.css";
 
-const Actor = ({ name, picture }) => {
+const Actor = ({ name, picture, clickFunction }) => {
   return (
     <div id="Actor">
-      <img src={picture} alt={name}></img>
+      <img src={picture} alt={name} height="400px" width="500px"></img>
       <h1>{name}</h1>
-      <button>Choose</button>
+      <button onClick={clickFunction}>Choose</button>
     </div>
   );
 };

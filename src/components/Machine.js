@@ -2,8 +2,10 @@ import React from "react";
 import "./Machine.css";
 
 import Actor from "./Actor";
+import ActorList from "./ActorList.json";
 
-const Machine = () => {
+const Machine = ({ gardCount, setGardCount, otherCount, setOtherCount }) => {
+  const { name, picture } = ActorList[0];
   return (
     <div id="Machine">
       <Actor
@@ -11,13 +13,10 @@ const Machine = () => {
         picture={
           "https://deadline.com/wp-content/uploads/2018/10/gerard-butler.jpg"
         }
+        clickFunction={setGardCount}
       />
-      <Actor
-        name={"Jermey Renner"}
-        picture={
-          "https://www.theplace2.ru/cache/archive/jeremy_renner/img/20911b286214-gthumb-gwdata1200-ghdata1200-gfitdatamax.jpg"
-        }
-      />
+      <h1 style={{ textDecoration: "underline" }}>OR</h1>
+      <Actor name={name} picture={picture} clickFunction={setOtherCount} />
     </div>
   );
 };
