@@ -13,9 +13,9 @@ const App = () => {
     <div id="app">
       <Machine
         gardCount={gardCount}
-        setGardCount={setGardCount}
+        setGardCount={() => setGardCount(gardCount + 1)}
         otherCount={otherCount}
-        setOtherCount={setOtherCount}
+        setOtherCount={() => setOtherCount(otherCount + 1)}
       />
       <p style={{ fontSize: "2rem", fontFamily: "impact" }}>
         You are stuck in a machine that will transform you into either Gerard

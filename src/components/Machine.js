@@ -5,7 +5,11 @@ import Actor from "./Actor";
 import ActorList from "./ActorList.json";
 
 const Machine = ({ gardCount, setGardCount, otherCount, setOtherCount }) => {
-  const { name, picture } = ActorList[0];
+  // This is stupid
+  const { name, picture } =
+    gardCount + otherCount < ActorList.length
+      ? ActorList[gardCount + otherCount]
+      : ActorList[0];
   return (
     <div id="Machine">
       <Actor
@@ -14,9 +18,15 @@ const Machine = ({ gardCount, setGardCount, otherCount, setOtherCount }) => {
           "https://deadline.com/wp-content/uploads/2018/10/gerard-butler.jpg"
         }
         clickFunction={setGardCount}
+        count={gardCount}
       />
       <h1 style={{ textDecoration: "underline" }}>OR</h1>
-      <Actor name={name} picture={picture} clickFunction={setOtherCount} />
+      <Actor
+        name={name}
+        picture={picture}
+        clickFunction={setOtherCount}
+        count={otherCount}
+      />
     </div>
   );
 };
