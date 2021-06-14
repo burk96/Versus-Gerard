@@ -1,5 +1,9 @@
 [
   {
+    "name": "Gerard Butler",
+    "picture": "https://www.thescottishsun.co.uk/wp-content/uploads/sites/2/2018/01/nintchdbpict000379010572.jpg"
+  },
+  {
     "name": "Jermey Renner",
     "picture": "https://www.theplace2.ru/cache/archive/jeremy_renner/img/20911b286214-gthumb-gwdata1200-ghdata1200-gfitdatamax.jpg"
   },
@@ -10,5 +14,29 @@
   {
     "name": "Ben Affleck",
     "picture": "https://www.lifeandstylemag.com/wp-content/uploads/2017/10/ben-affleck-feb-2006.jpg?fit=200%2C1"
+  },
+  {
+    "name": "Billy Bob Thorton",
+    "picture": "https://i.pinimg.com/originals/ed/e2/9a/ede29adc953a9bb839fb9002aff66aa6.jpg"
+  },
+  {
+    "name": "Matt Damon",
+    "picture": "http://images5.fanpop.com/image/photos/25300000/Matt-Photoshoot-matt-damon-25314691-1334-2000.jpg"
+  },
+  {
+    "name": "Matthew McConaughey",
+    "picture": "https://s3-eu-west-2.amazonaws.com/metro-news-s3-prod/wp-content/uploads/2019/02/Header_2321512_1.1-1023x1024.jpg"
+  },
+  {
+    "name": "Paul Newman",
+    "picture": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/paul-newman-archive-photos.jpg"
+  },
+  {
+    "name": "Timothee Chalamet",
+    "picture": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-img.instyle.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F684xflex%2Fpublic%2F1578583006%2F010920-timothee-chalamet-lead.jpg%3Fitok%3DoVTSRUVO"
+  },
+  {
+    "name": "John Travolta",
+    "picture": "https://www.bjtonline.com/sites/bjtonline.com/files/hr_travoltachallenger_0.jpg"
   }
 ]

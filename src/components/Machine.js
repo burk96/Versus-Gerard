@@ -7,8 +7,8 @@ import ActorList from "./ActorList.json";
 const Machine = ({ gardCount, setGardCount, otherCount, setOtherCount }) => {
   // This is stupid
   const { name, picture } =
-    gardCount + otherCount < ActorList.length
-      ? ActorList[gardCount + otherCount]
+    gardCount + otherCount < ActorList.length - 1
+      ? ActorList[gardCount + otherCount + 1]
       : ActorList[0];
   return (
     <div id="Machine">
